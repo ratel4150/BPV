@@ -1,0 +1,27 @@
+/mi-proyecto
+├── /api                    # Carpeta principal de la API
+│   ├── /controllers        # Controladores para la lógica de negocio
+│   │   ├── departmentController.js
+│   │   ├── productController.js
+│   ├── /models             # Modelos de datos (Mongoose)
+│   │   ├── department.js
+│   │   ├── product.js
+│   ├── /routes             # Rutas de la API
+│   │   ├── departmentRoutes.js
+│   │   ├── productRoutes.js
+│   │   ├── index.js        # Archivo principal que junta todas las rutas
+│   ├── /middleware         # Middlewares personalizados
+│   │   ├── morganMiddleware.js # Middleware de Morgan
+│   │   ├── authMiddleware.js   # Middleware de autenticación (si lo tienes)
+│   ├── /swagger            # Documentación Swagger
+│   │   ├── swaggerOptions.js   # Opciones de configuración de Swagger
+│   ├── logger.js           # Configuración de Winston
+├── /config                 # Configuraciones generales
+│   └── index.js            # Configuración de la base de datos
+├── /logs                   # Archivos de logs (si decides crear esta carpeta)
+│   ├── error.log
+│   ├── combined.log
+├── server.js               # Archivo principal de la aplicación
+├── .env                    # Archivo de variables de entorno
+├── package.json            # Dependencias y scripts del proyecto
+└── README.md               # Documentación del proyecto

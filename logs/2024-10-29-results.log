@@ -1,0 +1,223 @@
+{"level":"info","message":"Información general","timestamp":"2024-10-29T21:46:10.134Z"}
+{"level":"warn","message":"Este es un mensaje de advertencia","timestamp":"2024-10-29T21:46:10.137Z"}
+{"level":"error","message":"Ocurrió un error crítico","timestamp":"2024-10-29T21:46:10.138Z"}
+{"level":"debug","message":"Información de depuración detallada","timestamp":"2024-10-29T21:46:10.139Z"}
+{"level":"info","message":"Información general","timestamp":"2024-10-29T21:47:03.991Z"}
+{"level":"warn","message":"Este es un mensaje de advertencia","timestamp":"2024-10-29T21:47:03.995Z"}
+{"level":"error","message":"Ocurrió un error crítico","timestamp":"2024-10-29T21:47:03.996Z"}
+{"level":"debug","message":"Información de depuración detallada","timestamp":"2024-10-29T21:47:03.997Z"}
+{"level":"info","message":"Información general","timestamp":"2024-10-29T21:47:09.943Z"}
+{"level":"warn","message":"Este es un mensaje de advertencia","timestamp":"2024-10-29T21:47:09.948Z"}
+{"level":"error","message":"Ocurrió un error crítico","timestamp":"2024-10-29T21:47:09.949Z"}
+{"level":"debug","message":"Información de depuración detallada","timestamp":"2024-10-29T21:47:09.952Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:04:24.973Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:04:24.977Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:04:24.978Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:04:24.979Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:04:24.980Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:04:24.981Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:06:46.563Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:06:46.566Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:06:46.567Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:06:46.568Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:06:46.568Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:06:46.569Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:09:11.071Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:09:11.075Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:09:11.076Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:09:11.077Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:09:11.077Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:09:11.078Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:09:20.455Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:09:20.459Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:09:20.460Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:09:20.461Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:09:20.462Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:09:20.463Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:10:02.381Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:10:02.385Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:10:02.386Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:10:02.386Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:10:02.387Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:10:02.388Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:10:45.428Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:10:45.432Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:10:45.433Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:10:45.433Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:10:45.434Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:10:45.434Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:10:57.346Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:10:57.350Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:10:57.351Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:10:57.351Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:10:57.352Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:10:57.352Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:11:37.957Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:11:37.961Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:11:37.962Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:11:37.962Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:11:37.963Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:11:37.963Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:12:42.720Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:12:42.727Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:12:42.728Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:12:42.729Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:12:42.730Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:12:42.731Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:02.823Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:02.828Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:02.829Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:02.829Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:02.830Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:02.831Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:11.290Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:11.296Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:11.297Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:11.298Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:11.298Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:11.299Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:16.610Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:16.614Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:16.615Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:16.615Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:16.616Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:16.617Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:27.627Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:27.631Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:27.632Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:27.633Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:27.634Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:27.635Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:40.274Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:40.278Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:40.278Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:40.279Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:40.279Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:40.280Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:49.339Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:49.343Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:49.344Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:49.345Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:49.345Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:49.346Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:13:54.622Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:13:54.626Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:13:54.627Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:13:54.628Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:13:54.629Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:13:54.629Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:15:32.554Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:15:32.558Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:15:32.559Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:15:32.559Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:15:32.560Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:15:32.560Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:16:25.084Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:16:25.088Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:16:25.089Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:16:25.089Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:16:25.090Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:16:25.091Z"}
+{"level":"error","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:16:37.164Z"}
+{"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:16:37.168Z"}
+{"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:16:37.169Z"}
+{"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:16:37.170Z"}
+{"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:16:37.170Z"}
+{"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:16:37.171Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:27:06.946Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:27:06.948Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:27:06.948Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:27:06.949Z"}
+{"context":{"userId":"123"},"level":"verbose","message":"Detalles de la operación: Usuario actualizado correctamente","timestamp":"2024-10-29T22:27:06.950Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:27:06.951Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:28:04.775Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:28:04.779Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:28:04.780Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:28:04.781Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:28:04.781Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:28:04.782Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:29:10.147Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:29:10.153Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:29:10.154Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:29:10.155Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:29:10.156Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:29:10.158Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:31:14.141Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:31:14.145Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:31:14.146Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:31:14.148Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:31:14.149Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:31:14.150Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:31:53.965Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:31:54.100Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:31:54.101Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:31:54.104Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:31:54.108Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:31:54.109Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:32:06.258Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:32:06.283Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:32:06.284Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:32:06.285Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:32:06.286Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:32:06.287Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:34:27.581Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:34:27.606Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:34:27.607Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:34:27.609Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:34:27.610Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:34:27.612Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:34:55.276Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:34:55.299Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:34:55.300Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:34:55.301Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:34:55.302Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:34:55.303Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-29T22:35:06.717Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6721631a175a1251c0cbf3d3","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-29T22:35:06.913Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:36:15.697Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:36:15.722Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:36:15.723Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:36:15.725Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:36:15.728Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:36:15.736Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-29T22:36:20.969Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"67216364bec8c2da307ce518","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-29T22:36:21.167Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:36:29.148Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:36:29.171Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:36:29.172Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:36:29.173Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:36:29.174Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:36:29.175Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:37:21.479Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:37:21.502Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:37:21.504Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:37:21.506Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:37:21.508Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:37:21.509Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-29T22:37:27.209Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"672163a7e4e7722a451fa1c7","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-29T22:37:27.409Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T22:39:28.356Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T22:39:28.378Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T22:39:28.380Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T22:39:28.381Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T22:39:28.382Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T22:39:28.384Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-29T23:53:30.865Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6721757a02171a6bcdb77a10","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-29T23:53:31.082Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-10-29T23:53:44.385Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T23:55:31.242Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T23:55:31.270Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T23:55:31.271Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T23:55:31.272Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T23:55:31.273Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T23:55:31.274Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-10-29T23:59:29.995Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-10-29T23:59:30.018Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-10-29T23:59:30.019Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-10-29T23:59:30.021Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-10-29T23:59:30.024Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-10-29T23:59:30.026Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-30T00:00:16.278Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"67217710e2268df4de27b364","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-30T00:00:16.461Z"}
+{"description":"Sección de electrónicos y electrodomésticos","level":"info","message":"Creando departamento con datos: ","name":"Electrónica","timestamp":"2024-10-30T00:00:23.628Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require"},"states":{"default":{},"modify":{},"require":{"name":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"description":true,"name":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"67217717e2268df4de27b366","description":"Sección de electrónicos y electrodomésticos","name":"Electrónica"},"level":"info","message":"Departamento creado exitosamente: ","timestamp":"2024-10-30T00:00:23.802Z"}

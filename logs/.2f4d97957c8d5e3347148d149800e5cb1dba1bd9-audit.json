@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\.2f4d97957c8d5e3347148d149800e5cb1dba1bd9-audit.json",
+    "files": [
+        {
+            "date": 1730239760436,
+            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-10-29-results.log",
+            "hash": "9680f4869ae82006560e7b365b789ad2ba8832961582df6a79de60b5dcdd0615"
+        }
+    ],
+    "hashType": "sha256"
+}
