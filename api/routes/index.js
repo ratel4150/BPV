@@ -11,6 +11,9 @@ import customRoutes from './customRoutes.js'
 import discountHistoryRoutes from './customHistoryRoutes.js'
 import generalConfigurationRoutes from './generalConfigurationRoutes.js'
 import inventoryRoutes from './inventoryRoutes.js'
+import InventoryMovementRoutes from './inventoryMovementRoutes.js';
+import alertConfigurationRoutes from './alertConfigurationRoutes.js'
+import invoicesRoutes from './invoiceRoutes.js'
 const router = express.Router();
 
 // Rutas
@@ -25,4 +28,7 @@ router.use('/customers', customRoutes); // Endpoint para clientes
 router.use('/discount-histories', discountHistoryRoutes); // Endpoint para clientes
 router.use('/general-configurations', generalConfigurationRoutes); // Endpoint para clientes
 router.use('/inventory', inventoryRoutes); // Endpoint para clientes
+router.use('/inventory-movement', InventoryMovementRoutes); // Endpoint para clientes
+router.use('/alert-configurations', alertConfigurationRoutes);
+router.use('/invoices', invoicesRoutes);
 export default router;

@@ -19,5 +19,7 @@ export const swaggerOptions = {
       },
     ],
   },
-  apis: [path.join(__dirname, '/api/controllers/*.js')], // Cambia esta ruta si tus archivos están en otro lugar
+  apis: [
+    path.join(__dirname, '/api/controllers/*.js'), // Controladores
+    path.join(__dirname, '/api/routes/*.js'),], // Cambia esta ruta si tus archivos están en otro lugar
 };

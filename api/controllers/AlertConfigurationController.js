@@ -1,19 +1,19 @@
-// controllers/departmentController.js
+// controllers/alertConfigurationController.js
 import AlertConfiguration from '../models/AlertConfiguration.js';
 
 /**
  * @swagger
  * tags:
  *   name: AlertConfiguration
- *   description: API para la gestión de alertas
+ *   description: API para la gestión de configuraciones de alerta
  */
 
 /**
  * @swagger
- * /departments:
+ * /alert-configurations:
  *   post:
- *     summary: Crea un nuevo departamento
- *     tags: [Departments]
+ *     summary: Crea una nueva configuración de alerta
+ *     tags: [AlertConfiguration]
  *     requestBody:
  *       required: true
  *       content:
@@ -21,145 +21,25 @@ import AlertConfiguration from '../models/AlertConfiguration.js';
  *           schema:
  *             type: object
  *             properties:
- *               name:
+ *               alertType:
  *                 type: string
- *                 description: Nombre del departamento
- *                 example: Electrónica
- *               description:
+ *                 description: Tipo de alerta
+ *                 example: "Error"
+ *               message:
  *                 type: string
- *                 description: Descripción del departamento
- *                 example: Sección de electrónicos y electrodomésticos
+ *                 description: Mensaje de la alerta
+ *                 example: "El sistema ha detectado un error crítico"
  *     responses:
  *       201:
- *         description: Departamento creado exitosamente
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 _id:
- *                   type: string
- *                   description: ID del departamento
- *                 name:
- *                   type: string
- *                   description: Nombre del departamento
- *                 description:
- *                   type: string
- *                   description: Descripción del departamento
+ *         description: Configuración de alerta creada exitosamente
  *       400:
  *         description: Error en la solicitud
  */
-export const createDepartment = async (req, res) => {
-    try {
-      console.log(req.body); // Esto te mostrará lo que estás enviando en el cuerpo
-      const department = new Department(req.body);
-      console.log(department);  
-      
-      await department.save();
-      res.status(201).json(department);
-    } catch (error) {
-      res.status(400).json({ message: error.message });
-    }
-  };
-
-/**
- * @swagger
- * /departments:
- *   get:
- *     summary: Obtener todos los departamentos
- *     tags: [Departments]
- *     responses:
- *       200:
- *         description: Lista de departamentos
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 $ref: '#/components/schemas/Department'
- *       500:
- *         description: Error al obtener los departamentos
- */
-export const getAllDepartments = async (req, res) => {
+export const createAlertConfiguration = async (req, res) => {
   try {
-    const departments = await Department.find();
-    res.status(200).json(departments);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-/**
- * @swagger
- * /departments/{id}:
- *   get:
- *     summary: Obtener un departamento por ID
- *     tags: [Departments]
- *     parameters:
- *       - in: path
- *         name: id
- *         schema:
- *           type: string
- *         required: true
- *         description: ID del departamento
- *     responses:
- *       200:
- *         description: Departamento encontrado
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/Department'
- *       404:
- *         description: Departamento no encontrado
- *       500:
- *         description: Error al obtener el departamento
- */
-export const getDepartmentById = async (req, res) => {
-  try {
-    const department = await Department.findById(req.params.id);
-    if (!department) return res.status(404).json({ message: 'Department not found' });
-    res.status(200).json(department);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-/**
- * @swagger
- * /departments/{id}:
- *   put:
- *     summary: Actualizar un departamento por ID
- *     tags: [Departments]
- *     parameters:
- *       - in: path
- *         name: id
- *         schema:
- *           type: string
- *         required: true
- *         description: ID del departamento
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/Department'
- *     responses:
- *       200:
- *         description: Departamento actualizado
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/Department'
- *       404:
- *         description: Departamento no encontrado
- *       400:
- *         description: Error en la actualización
- */
-export const updateDepartment = async (req, res) => {
-  try {
-    const department = await Department.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!department) return res.status(404).json({ message: 'Department not found' });
-    res.status(200).json(department);
+    const alertConfig = new AlertConfiguration(req.body);
+    await alertConfig.save();
+    res.status(201).json(alertConfig);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
@@ -167,30 +47,126 @@ export const updateDepartment = async (req, res) => {
 
 /**
  * @swagger
- * /departments/{id}:
- *   delete:
- *     summary: Eliminar un departamento por ID
- *     tags: [Departments]
- *     parameters:
- *       - in: path
- *         name: id
- *         schema:
- *           type: string
- *         required: true
- *         description: ID del departamento
+ * /alert-configurations:
+ *   get:
+ *     summary: Obtener todas las configuraciones de alerta
+ *     tags: [AlertConfiguration]
  *     responses:
  *       200:
- *         description: Departamento eliminado exitosamente
+ *         description: Lista de configuraciones de alerta
+ *       500:
+ *         description: Error al obtener las configuraciones de alerta
+ */
+export const getAllAlertConfigurations = async (req, res) => {
+  try {
+    const alertConfigs = await AlertConfiguration.find();
+    res.status(200).json(alertConfigs);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+/**
+ * @swagger
+ * /alert-configurations/{id}:
+ *   get:
+ *     summary: Obtener una configuración de alerta por ID
+ *     tags: [AlertConfiguration]
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID de la configuración de alerta
+ *     responses:
+ *       200:
+ *         description: Configuración de alerta encontrada
  *       404:
- *         description: Departamento no encontrado
+ *         description: Configuración de alerta no encontrada
+ *       500:
+ *         description: Error al obtener la configuración de alerta
+ */
+export const getAlertConfigurationById = async (req, res) => {
+  try {
+    const alertConfig = await AlertConfiguration.findById(req.params.id);
+    if (!alertConfig) return res.status(404).json({ message: 'Alert configuration not found' });
+    res.status(200).json(alertConfig);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+/**
+ * @swagger
+ * /alert-configurations/{id}:
+ *   put:
+ *     summary: Actualizar una configuración de alerta por ID
+ *     tags: [AlertConfiguration]
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID de la configuración de alerta
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               alertType:
+ *                 type: string
+ *                 description: Tipo de alerta
+ *               message:
+ *                 type: string
+ *                 description: Mensaje de la alerta
+ *     responses:
+ *       200:
+ *         description: Configuración de alerta actualizada
+ *       404:
+ *         description: Configuración de alerta no encontrada
+ *       400:
+ *         description: Error en la actualización
+ */
+export const updateAlertConfiguration = async (req, res) => {
+  try {
+    const alertConfig = await AlertConfiguration.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!alertConfig) return res.status(404).json({ message: 'Alert configuration not found' });
+    res.status(200).json(alertConfig);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+
+/**
+ * @swagger
+ * /alert-configurations/{id}:
+ *   delete:
+ *     summary: Eliminar una configuración de alerta por ID
+ *     tags: [AlertConfiguration]
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID de la configuración de alerta
+ *     responses:
+ *       200:
+ *         description: Configuración de alerta eliminada exitosamente
+ *       404:
+ *         description: Configuración de alerta no encontrada
  *       500:
  *         description: Error en la eliminación
  */
-export const deleteDepartment = async (req, res) => {
+export const deleteAlertConfiguration = async (req, res) => {
   try {
-    const department = await Department.findByIdAndDelete(req.params.id);
-    if (!department) return res.status(404).json({ message: 'Department not found' });
-    res.status(200).json({ message: 'Department deleted successfully' });
+    const alertConfig = await AlertConfiguration.findByIdAndDelete(req.params.id);
+    if (!alertConfig) return res.status(404).json({ message: 'Alert configuration not found' });
+    res.status(200).json({ message: 'Alert configuration deleted successfully' });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
