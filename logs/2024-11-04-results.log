@@ -100,3 +100,15 @@
 {"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-05T05:35:26.819Z"}
 {"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-05T05:35:26.821Z"}
 {"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-05T05:35:26.824Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-05T05:38:53.045Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-05T05:38:53.075Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-05T05:38:53.076Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-05T05:38:53.078Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-05T05:38:53.079Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-05T05:38:53.080Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-05T05:39:22.721Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-05T05:39:22.770Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-05T05:39:22.772Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-05T05:39:22.775Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-05T05:39:22.777Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-05T05:39:22.780Z"}

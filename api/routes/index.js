@@ -14,6 +14,20 @@ import inventoryRoutes from './inventoryRoutes.js'
 import InventoryMovementRoutes from './inventoryMovementRoutes.js';
 import alertConfigurationRoutes from './alertConfigurationRoutes.js'
 import invoicesRoutes from './invoiceRoutes.js'
+import loyaltyProgramRoutes from './loyaltyProgramRoutes.js'
+import loyaltyTransactionRoutes from './loyaltyTransactionRoutes.js'
+import paymentHistoryRoutes from './paymentHistoryRoutes.js'
+import promotionRoutes from './promotionRoutes.js'
+import roleRoutes from './roleRoutes.js'
+import salesReportRoutes from './salesReportRoutes.js'
+import serviceRoute from './serviceRoutes.js'
+import serviceInventoryRoutes from './serviceInventoryRoutes.js';
+import sessionRoutes from './sessionRoutes.js'
+import taxConfigurationRoutes from './taxConfigurationRoutes.js'
+import ticketRoutes from './ticketRoutes.js'
+import trainingProgramRoutes from './trainingProgramRoutes.js'
+import userRoutes from './userRoutes.js'
+import storeRoutes from './storeRoutes.js'
 const router = express.Router();
 
 // Rutas
@@ -31,4 +45,18 @@ router.use('/inventory', inventoryRoutes); // Endpoint para clientes
 router.use('/inventory-movement', InventoryMovementRoutes); // Endpoint para clientes
 router.use('/alert-configurations', alertConfigurationRoutes);
 router.use('/invoices', invoicesRoutes);
+router.use('/loyalty-programs', loyaltyProgramRoutes);
+router.use('/loyalty-transactions', loyaltyTransactionRoutes);
+router.use('/payment-history', paymentHistoryRoutes);
+router.use('/promotions', promotionRoutes);
+router.use('/roles', roleRoutes);
+router.use('/sales-reports', salesReportRoutes);
+router.use('/services', serviceRoute);
+router.use('/service-inventory', serviceInventoryRoutes);
+router.use('/sessions', sessionRoutes);
+router.use('/tax-configurations', taxConfigurationRoutes);
+router.use('/tickets', ticketRoutes);
+router.use('/training-programs', trainingProgramRoutes);
+router.use('/users', userRoutes);
+router.use('/stores', storeRoutes);
 export default router;
