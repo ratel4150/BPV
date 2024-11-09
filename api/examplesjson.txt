@@ -1,0 +1,119 @@
+{
+  "name": "Supermercado Ejemplo",
+  "location": {
+    "street": "123 Calle Principal",
+    "city": "Ciudad Ejemplo",
+    "state": "Estado Ejemplo",
+    "zipCode": "12345",
+    "country": "País Ejemplo"
+  },
+  "contactInfo": {
+    "phone": "+1234567890",
+    "email": "contacto@supermercadoejemplo.com",
+    "website": "https://www.supermercadoejemplo.com"
+  },
+  "hours": [
+    {
+      "day": "Lunes",
+      "openTime": "08:00",
+      "closeTime": "20:00"
+    },
+    {
+      "day": "Martes",
+      "openTime": "08:00",
+      "closeTime": "20:00"
+    }
+  ],
+  "departments": [
+    "604c1a6e57c8f3b4b8e6f60d",
+    "604c1a6e57c8f3b4b8e6f60e"
+  ],
+  "products": [
+    "604c1a6e57c8f3b4b8e6f60f",
+    "604c1a6e57c8f3b4b8e6f610"
+  ],
+  "customers": [
+    "604c1a6e57c8f3b4b8e6f611",
+    "604c1a6e57c8f3b4b8e6f612"
+  ],
+  "tickets": [
+    "604c1a6e57c8f3b4b8e6f613",
+    "604c1a6e57c8f3b4b8e6f614"
+  ],
+  "invoices": [
+    "604c1a6e57c8f3b4b8e6f615",
+    "604c1a6e57c8f3b4b8e6f616"
+  ],
+  "cashClosures": [
+    "604c1a6e57c8f3b4b8e6f617",
+    "604c1a6e57c8f3b4b8e6f618"
+  ],
+  "promotions": [
+    "604c1a6e57c8f3b4b8e6f619",
+    "604c1a6e57c8f3b4b8e6f61a"
+  ],
+  "inventory": "604c1a6e57c8f3b4b8e6f61b",
+  "generalConfiguration": "604c1a6e57c8f3b4b8e6f61c",
+  "loyaltyProgram": "604c1a6e57c8f3b4b8e6f61d",
+  "taxConfiguration": "604c1a6e57c8f3b4b8e6f61e",
+  "alertConfiguration": "604c1a6e57c8f3b4b8e6f61f",
+  "trainingProgram": "604c1a6e57c8f3b4b8e6f620",
+  "metrics": {
+    "totalSales": 100000,
+    "totalCustomers": 500,
+    "totalProducts": 1500,
+    "inventoryValue": 75000,
+    "customerSatisfactionScore": 4.5
+  },
+  "userPermissions": [
+    {
+      "userId": "604c1a6e57c8f3b4b8e6f621",
+      "canEdit": true,
+      "canViewReports": true,
+      "canManageInventory": false,
+      "canConfigureSettings": false
+    },
+    {
+      "userId": "604c1a6e57c8f3b4b8e6f622",
+      "canEdit": false,
+      "canViewReports": true,
+      "canManageInventory": true,
+      "canConfigureSettings": true
+    }
+  ],
+  "auditLog": [
+    {
+      "action": "Created Store",
+      "performedBy": "604c1a6e57c8f3b4b8e6f623",
+      "date": "2023-10-20T14:28:00Z",
+      "changes": {
+        "field": "name",
+        "oldValue": "",
+        "newValue": "Supermercado Ejemplo"
+      }
+    }
+  ],
+  "inventoryPolicy": {
+    "reOrderThreshold": 15,
+    "reOrderQuantity": 60,
+    "isAutomaticReorder": true
+  },
+  "securitySettings": {
+    "isTwoFactorEnabled": true,
+    "accessRoles": [
+      "Admin",
+      "Manager"
+    ]
+  },
+  "isActive": true,
+  "createdAt": "2023-10-20T14:28:00Z",
+  "updatedAt": "2023-10-20T14:28:00Z"
+}
+/*  */
+{
+    "username": "newuser123",
+    "password": "securepassword123",
+    "role": "605c72fd8f1b2c6d88e8e923",  // ID de ejemplo para el rol
+    "active": true,
+    "store": "605c73008f1b2c6d88e8e925" // ID de ejemplo para la tienda
+  }

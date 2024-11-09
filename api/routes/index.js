@@ -28,6 +28,7 @@ import ticketRoutes from './ticketRoutes.js'
 import trainingProgramRoutes from './trainingProgramRoutes.js'
 import userRoutes from './userRoutes.js'
 import storeRoutes from './storeRoutes.js'
+import authRoutes from './authRoutes.js'
 const router = express.Router();
 
 // Rutas
@@ -59,4 +60,5 @@ router.use('/tickets', ticketRoutes);
 router.use('/training-programs', trainingProgramRoutes);
 router.use('/users', userRoutes);
 router.use('/stores', storeRoutes);
+router.use('/auth', authRoutes);
 export default router;

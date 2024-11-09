@@ -1,0 +1,29 @@
+/config                   # Configuración general de la aplicación (conexión a base de datos, variables de entorno, etc.)
+  └── index.js            # Archivo que gestiona la conexión con la base de datos y configuración general
+
+/controllers              # Lógica para manejar las solicitudes HTTP y coordinar con los modelos
+  ├── authController.js   # Controlador para login, logout y manejo de sesiones
+  ├── sessionController.js # Controlador para manejo de sesiones, creación y expiración
+  └── storeController.js  # Controlador para gestión de tiendas, permisos y auditoría
+
+/models                   # Modelos de datos (Mongoose) definidos en la base de datos
+  ├── sessionModel.js     # Esquema y modelo de la sesión (Session)
+  ├── storeModel.js       # Esquema y modelo de la tienda (Store)
+  └── userModel.js        # Esquema y modelo del usuario (User)
+
+/middlewares              # Middlewares personalizados para autenticación, validación, etc.
+  ├── authMiddleware.js   # Middleware para verificar autenticación y sesión activa
+  └── validationMiddleware.js # Middleware para validar entradas en las solicitudes
+
+/routes                   # Definición de rutas para manejar las solicitudes HTTP
+  ├── authRoutes.js       # Rutas para login, logout, registro, etc.
+  ├── sessionRoutes.js    # Rutas para manejar las sesiones de usuario
+  └── storeRoutes.js      # Rutas para gestionar tiendas y configuraciones
+
+/services                 # Lógica de negocio y funciones auxiliares
+  ├── authService.js      # Lógica para la creación de tokens, validación de sesiones, etc.
+  └── storeService.js     # Lógica para manejar la información de la tienda y sus configuraciones
+
+/utils                    # Utilidades generales y funciones auxiliares
+  └── jwtUtils.js         # Funciones relacionadas con la creación y verificación de JWT
+

@@ -54,6 +54,9 @@ const storeSchema = new Schema({
   location: { type: addressSchema, required: true },
   contactInfo: { type: contactInfoSchema, required: true },
   hours: [hoursSchema], // Horarios de operación
+
+  /* Quien la creo*/
+  owner: { type: Schema.Types.ObjectId, ref: 'User' }, // Relación con el usuario propietario
   
   // Referencias a otros esquemas
   departments: [{ type: Schema.Types.ObjectId, ref: 'Department' }],

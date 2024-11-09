@@ -75,14 +75,24 @@ import Joi from 'joi';
 export const createInventoryItem = async (req, res) => {
   try {
     const inventorySchema = Joi.object({
+      store: Joi.string().required(), // ID de la tienda es requerido
       product: Joi.string().required(),
       quantity: Joi.number().integer().required(),
     });
 
     await inventorySchema.validateAsync(req.body);
 
-    const { product, quantity } = req.body;
-    const inventoryItem = new Inventory({ product, quantity });
+    const { store, product, quantity } = req.body;
+
+    // Verifica si el producto ya existe en el inventario de la tienda
+    const existingInventoryItem = await Inventory.findOne({ store, product });
+    if (existingInventoryItem) {
+      logger.warn(`El producto ya existe en el inventario de la tienda: ${store}`);
+      return res.status(400).json({ error: "El producto ya existe en el inventario de la tienda" });
+    }
+
+    // Crea el nuevo elemento de inventario
+    const inventoryItem = new Inventory({ store, product, quantity });
     await inventoryItem.save();
 
     logger.info(`Inventory item created: ${inventoryItem._id}`);
@@ -93,7 +103,7 @@ export const createInventoryItem = async (req, res) => {
       return res.status(400).json({ error: error.message });
     }
     logger.error(`Error creating inventory item: ${error.message}`);
-    res.status(500).json({ error: 'Error creating inventory item' });
+    res.status(500).json({ error: "Error creating inventory item" });
   }
 };
 
