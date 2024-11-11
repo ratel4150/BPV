@@ -205,3 +205,15 @@
 {"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:53:29.349Z"}
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:53:32.605Z"}
 {"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:53:32.606Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:54:05.512Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:54:05.543Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:54:05.544Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:54:05.548Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:54:05.551Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:54:05.553Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:11.463Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:54:11.464Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:14.609Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:54:14.610Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:16.418Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:54:16.419Z"}
