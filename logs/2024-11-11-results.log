@@ -217,3 +217,9 @@
 {"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:54:14.610Z"}
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:16.418Z"}
 {"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:54:16.419Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:54:49.158Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:54:49.207Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:54:49.208Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:54:49.213Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:54:49.216Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:54:49.218Z"}

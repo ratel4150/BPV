@@ -509,3 +509,5 @@
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:11.463Z"}
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:14.609Z"}
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:16.418Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:54:49.158Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:54:49.207Z"}
