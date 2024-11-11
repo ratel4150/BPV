@@ -397,3 +397,110 @@
 {"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T15:53:03.811Z"}
 {"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-09T16:22:14.220Z"}
 {"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T16:22:14.381Z"}
+{"level":"error","message":"Error en el servicio de login: secretOrPrivateKey must have a value","timestamp":"2024-11-09T18:08:14.662Z"}
+{"level":"error","message":"Error en el servicio de login: secretOrPrivateKey must have a value","timestamp":"2024-11-09T18:14:39.993Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-09T19:51:12.316Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T19:51:12.546Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-09T19:51:19.454Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-09T19:51:24.433Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-09T19:54:58.706Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T19:54:58.815Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-09T19:55:07.118Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-09T20:01:07.551Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T20:01:07.651Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-09T20:03:58.055Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-09T20:03:58.151Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-10T15:10:02.823Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-10T15:10:02.933Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-10T15:15:11.588Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-10T15:15:11.636Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-10T15:17:08.460Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-10T21:32:26.451Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-10T21:32:31.764Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-10T21:32:49.397Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T14:51:54.576Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T14:51:54.643Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-11T14:52:20.344Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:01:15.565Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:01:15.631Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:02:05.164Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:02:05.225Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:04:37.273Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:04:37.337Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:06:19.666Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:06:19.729Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:09:49.434Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:09:49.505Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:10:26.688Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:10:26.764Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:23:38.937Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:23:38.996Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:50:34.496Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:50:34.673Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T16:11:10.218Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:27:14.747Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:29:33.222Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:29:33.289Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:29:37.270Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:30:16.603Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:30:16.626Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:22.387Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:27.011Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:32.000Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:33.490Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:31:47.850Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:31:47.900Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:31:51.627Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:36:47.262Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:36:47.293Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:50.903Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:54.211Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:57.816Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:37:13.977Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:37:14.000Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:37:19.237Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:37:21.811Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:38:07.353Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:38:07.378Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:38:31.076Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:38:31.100Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:34.961Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:36.256Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:37.221Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:39.008Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:39:10.118Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:39:10.149Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:39:13.551Z"}
+{"level":"error","message":"Error en el servicio de login: generateJWT is not defined","timestamp":"2024-11-11T17:39:13.555Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:39:37.799Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:39:37.821Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:39:43.404Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:39:43.413Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:40:53.817Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:40:53.846Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:40:57.590Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:40:57.598Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:27.182Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:27.189Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:28.823Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:28.827Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:30.474Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:30.478Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:31.690Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:31.695Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:32.838Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:32.841Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:48:50.397Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:48:50.425Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:53.806Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:53.813Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:50:25.099Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:50:25.136Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:50:30.769Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:50:30.786Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:51:35.793Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:51:35.816Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:51:50.495Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:53:29.310Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:53:29.345Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:53:32.605Z"}

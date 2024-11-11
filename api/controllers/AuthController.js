@@ -1,6 +1,8 @@
 /* import { signupService, loginService, logoutService } from '../service/authService.js'; */
 import authServices from '../service/authService.js';
 import logger from '../logger.js';
+import Session from '../models/Session.js';
+import { generateJWT } from '../utils/jwtUtils.js';
 
 // @swagger
 // /auth/signup:
@@ -8,10 +10,12 @@ import logger from '../logger.js';
 //     summary: Registro de un nuevo usuario
 export const signup = async (req, res) => {
   try {
-    const { username, password } = req.body;
+    console.log(req.body);
+    
+    const { username, password,email,storeName,roleName } = req.body;
 
     // Llamar al servicio para registrar un nuevo usuario
-    const result = await authServices.signupService(username, password);
+    const result = await authServices.signupService(username, password,email,storeName,roleName);
     
     if (result.error) {
       logger.warn(`Error al registrar el usuario ${username}: ${result.error}`);
@@ -28,20 +32,41 @@ export const signup = async (req, res) => {
 
 export const login = async (req, res) => {
   try {
-    const { username, password } = req.body;
+    const { username, password, email, storeName, roleName } = req.body;
 
-    // Llamar al servicio para autenticar al usuario
-    const result = await authServices.loginService(username, password, req);
-    
-    if (result.error) {
-      logger.warn(`Error al iniciar sesión: ${result.error}`);
-      return res.status(400).json({ message: result.error });
+    // Validar las credenciales del usuario
+    const user = await authServices.loginService(username, password, email, storeName, roleName);
+    if (!user) {
+      logger.warn(`Credenciales incorrectas para el usuario: ${username}`);
+      return res.status(401).json({ message: 'Credenciales incorrectas' });
     }
 
-    logger.info(`Inicio de sesión exitoso para: ${username}`);
-    return res.json({ token: result.token, sessionId: result.session._id });
+    // Verifica que el usuario tenga email y store asociados
+    if (!user.email || !user.store) {
+      logger.warn(`El usuario ${username} no tiene email o tienda configurada.`);
+      return res.status(400).json({ message: 'Usuario incompleto, falta email o tienda' });
+    }
+
+    // Generar el token JWT
+    const token = generateJWT(user);
+
+    // Crear una nueva sesión con email y store
+    const session = new Session({
+      user: user._id,
+      email: user.email,   // Asegúrate de que 'user.email' esté definido
+      store: user.store,   // Asegúrate de que 'user.store' esté definido
+      token,
+      ipAddress: req.ip,
+      device: req.headers['user-agent'],
+      expiresAt: new Date(Date.now() + 3600000), // Expira en 1 hora
+    });
+
+    await session.save();
+    logger.info(`Inicio de sesión exitoso para el usuario: ${username}`);
+
+    return res.status(200).json({ message: 'Inicio de sesión exitoso', token });
   } catch (err) {
-    logger.error(`Error al iniciar sesión: ${err.message}`);
+    logger.error(`Error en el servicio de login: ${err.message}`);
     return res.status(500).json({ message: 'Error del servidor' });
   }
 };

@@ -1,0 +1,207 @@
+{"level":"info","message":"Usuario registrado exitosamente: newuser123","timestamp":"2024-11-11T13:50:22.141Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T14:51:54.576Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T14:51:54.643Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T14:51:54.646Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T14:51:54.649Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T14:51:54.653Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T14:51:54.657Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-11T14:52:20.344Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:01:15.565Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:01:15.631Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:01:15.633Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:01:15.637Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:01:15.678Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:01:15.694Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:02:05.164Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:02:05.225Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:02:05.228Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:02:05.231Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:02:05.234Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:02:05.236Z"}
+{"level":"warn","message":"Error de validación en el registro: \"storeName\" is required","timestamp":"2024-11-11T15:03:25.547Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: \"storeName\" is required","timestamp":"2024-11-11T15:03:25.553Z"}
+{"level":"warn","message":"Error de validación en el registro: \"storeName\" is required","timestamp":"2024-11-11T15:03:36.564Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: \"storeName\" is required","timestamp":"2024-11-11T15:03:36.566Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:04:37.273Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:04:37.337Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:04:37.339Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:04:37.345Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:04:37.348Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:04:37.353Z"}
+{"level":"warn","message":"Error de validación en el registro: \"storeName\" is required","timestamp":"2024-11-11T15:04:40.919Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: \"storeName\" is required","timestamp":"2024-11-11T15:04:40.927Z"}
+{"level":"warn","message":"Error de validación en el registro: \"storeName\" is required","timestamp":"2024-11-11T15:05:42.221Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: \"storeName\" is required","timestamp":"2024-11-11T15:05:42.224Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:06:19.666Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:06:19.729Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:06:19.730Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:06:19.733Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:06:19.735Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:06:19.740Z"}
+{"level":"warn","message":"Error de validación en el registro: \"storeName\" is required","timestamp":"2024-11-11T15:06:26.671Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: \"storeName\" is required","timestamp":"2024-11-11T15:06:26.681Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:09:49.434Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:09:49.505Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:09:49.507Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:09:49.510Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:09:49.513Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:09:49.518Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:10:26.688Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:10:26.764Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:10:26.766Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:10:26.768Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:10:26.770Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:10:26.773Z"}
+{"level":"warn","message":"Rol no encontrado: Admin","timestamp":"2024-11-11T15:10:35.995Z"}
+{"level":"warn","message":"Error al registrar el usuario nuevoUsuario: Rol especificado no existe","timestamp":"2024-11-11T15:10:36.000Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:23:38.937Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:23:38.996Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:23:39.002Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:23:39.006Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:23:39.007Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:23:39.010Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T15:50:34.496Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T15:50:34.673Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T15:50:34.674Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T15:50:34.675Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T15:50:34.676Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T15:50:34.677Z"}
+{"level":"info","message":"Usuario registrado exitosamente: nuevoUsuario","timestamp":"2024-11-11T15:51:30.881Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T16:11:10.218Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T16:11:10.220Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:27:14.747Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:27:14.752Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:29:33.222Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:29:33.289Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:29:33.291Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:29:33.294Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:29:33.296Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:29:33.298Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:29:37.270Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:29:37.272Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:30:16.603Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:30:16.626Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:30:16.627Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:30:16.629Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:30:16.629Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:30:16.631Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:22.387Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:30:22.390Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:27.011Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:30:27.013Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:32.000Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:30:32.002Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:30:33.490Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:30:33.491Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:31:47.850Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:31:47.900Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:31:47.903Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:31:47.907Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:31:47.910Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:31:47.916Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:31:51.627Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:31:51.631Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:36:47.262Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:36:47.293Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:36:47.295Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:36:47.303Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:36:47.323Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:36:47.327Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:50.903Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:36:50.906Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:54.211Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:36:54.213Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:36:57.816Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:36:57.820Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:37:13.977Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:37:14.000Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:37:14.002Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:37:14.003Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:37:14.004Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:37:14.005Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:37:19.237Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:37:19.240Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:37:21.811Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:37:21.813Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:38:07.353Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:38:07.378Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:38:07.379Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:38:07.380Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:38:07.381Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:38:07.383Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:38:31.076Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:38:31.100Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:38:31.101Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:38:31.102Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:38:31.103Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:38:31.104Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:34.961Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:36.256Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:37.221Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot access 'req' before initialization","timestamp":"2024-11-11T17:38:39.008Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:39:10.118Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:39:10.149Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:39:10.154Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:39:10.156Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:39:10.157Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:39:10.158Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:39:13.551Z"}
+{"level":"error","message":"Error en el servicio de login: generateJWT is not defined","timestamp":"2024-11-11T17:39:13.555Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:39:37.799Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:39:37.821Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:39:37.822Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:39:37.823Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:39:37.824Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:39:37.825Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:39:43.404Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:39:43.413Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:40:53.817Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:40:53.846Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:40:53.848Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:40:53.849Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:40:53.850Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:40:53.851Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:40:57.590Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:40:57.598Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:27.182Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:27.189Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:28.823Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:28.827Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:30.474Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:30.478Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:31.690Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:31.695Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:32.838Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:32.841Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:48:50.397Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:48:50.425Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:48:50.426Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:48:50.427Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:48:50.428Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:48:50.429Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:48:53.806Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:48:53.813Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:50:25.099Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:50:25.136Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:50:25.138Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:50:25.140Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:50:25.142Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:50:25.144Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T17:50:30.769Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T17:50:30.786Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:51:35.793Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:51:35.816Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:51:35.817Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:51:35.818Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:51:35.819Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:51:35.820Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:51:50.495Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:51:50.496Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:53:29.310Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:53:29.345Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-11T17:53:29.346Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-11T17:53:29.347Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-11T17:53:29.348Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-11T17:53:29.349Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T17:53:32.605Z"}
+{"level":"warn","message":"El usuario nuevoUsuario no tiene email o tienda configurada.","timestamp":"2024-11-11T17:53:32.606Z"}

@@ -18,6 +18,10 @@
 │   ├── logger.js           # Configuración de Winston
 ├── /config                 # Configuraciones generales
 │   └── index.js            # Configuración de la base de datos
+├── /seeds                  # Nueva carpeta para los scripts seed
+│   ├── seedDepartments.js  # Script de seed para departamentos
+│   ├── seedProducts.js     # Script de seed para productos
+│   ├── seedAll.js          # Script maestro para correr todos los seeds
 ├── /logs                   # Archivos de logs (si decides crear esta carpeta)
 │   ├── error.log
 │   ├── combined.log
@@ -25,3 +29,23 @@
 ├── .env                    # Archivo de variables de entorno
 ├── package.json            # Dependencias y scripts del proyecto
 └── README.md               # Documentación del proyecto
+
+
+
+
+Explicación de cada rol y sus permisos:
+Admin: Control total del sistema.
+Manager: Gestión y aprobación de inventarios y descuentos.
+Staff: Acceso limitado al inventario y proceso de ventas.
+Cashier: Encargado de ventas y manejo de efectivo.
+Inventory Clerk: Control de stock y gestión de pedidos.
+Customer Support: Soporte directo al cliente.
+Accountant: Encargado de la contabilidad y reportes financieros.
+Sales Analyst: Análisis y previsión de ventas.
+Maintenance Technician: Gestión y mantenimiento de equipo.
+IT Support: Soporte técnico y gestión de acceso.
+HR Manager: Recursos Humanos y gestión de personal.
+Marketing Specialist: Gestión de campañas y redes sociales.
+Security Officer: Seguridad física y monitoreo.
+Logistics Coordinator: Coordinación de entregas y logística.
+Vendor Relations: Gestión y negociación con proveedores.

@@ -2,7 +2,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "dev": "nodemon yourApp.js"
+    "dev": "nodemon yourApp.js",
+     "seed": "node api/seeds/seedAll.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,5 +26,8 @@
     "swagger-ui-express": "^5.0.1",
     "winston": "^3.15.0",
     "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0"
   }
 }

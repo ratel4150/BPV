@@ -51,8 +51,8 @@ app.use(limiter);
 // Middleware de Morgan para log de solicitudes
  app.use(morgan('combined')); 
 // Middleware para parsear JSON
-app.use(express.json());
-
+app.use(express.json()); // Para manejar solicitudes JSON
+app.use(express.urlencoded({ extended: true })); // Para manejar solicitudes URL-encoded
 
 // Inicializar Swagger
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
