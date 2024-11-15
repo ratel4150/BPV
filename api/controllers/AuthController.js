@@ -34,6 +34,10 @@ export const signup = async (req, res) => {
 
 export const login = async (req, res) => {
   try {
+    console.log("-----------");
+    
+    console.log(req.body);
+    console.log("-----------");
     const { username, password } = req.body;
 
     // Llamada al servicio de login para autenticar al usuario
