@@ -39,7 +39,7 @@ const port = process.env.PORT || 10010;
   noSniff: true, // Evita la detección de tipo MIME de navegador
   xssFilter: true, // Activa el filtro de protección contra XSS
 })));  
-
+app.set('trust proxy', true);
 // Limitar tasas de solicitudes
  const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutos
