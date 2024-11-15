@@ -76,7 +76,7 @@ export const signupService = async (username, password, email, storeName, roleNa
   };
 
 // Servicio para autenticar al usuario e iniciar sesión
-export const loginService = async (username, password ,email,storeName,roleName, req) => {
+export const loginService = async (username, password) => {
   try {
     const user = await User.findOne({ username });
     if (!user) return { error: 'Usuario no encontrado' };
@@ -85,19 +85,14 @@ export const loginService = async (username, password ,email,storeName,roleName,
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) return { error: 'Contraseña incorrecta' };
 
-    // Crear un token JWT
-    const token = generateJWT(user);
+    // Asegúrate de que el usuario tenga un email y store asociados
+    if (!user.email || !user.store) {
+      return { error: 'El usuario no tiene email o tienda configurados.' };
+    }
 
-    // Crear sesión del usuario
-    const session = new Session({
-      user: user._id,
-      token,
-      ipAddress: /* req.ip || req.headers['x-forwarded-for']?.split(',')[0] || */ 'IP no disponible',
-      device: req.headers['user-agent'],
-      expiresAt: new Date(Date.now() + 3600000), // Expira en 1 hora
-    });
-    await session.save();
-    return { token, session ,user};
+    // Generar un token JWT
+    const token = generateJWT(user);
+    return { token, user };
   } catch (err) {
     logger.error(`Error en el servicio de login: ${err.message}`);
     return { error: 'Error en el servidor' };
@@ -110,8 +105,16 @@ export const logoutService = async (sessionId) => {
     const session = await Session.findById(sessionId);
     if (!session) return { error: 'Sesión no encontrada' };
 
-    // Marcar sesión como revocada
-    session.status = 'Revoked';
+    // Verificar si la sesión ha expirado
+    if (session.expiresAt < Date.now()) {
+      session.status = 'Expired';
+      session.isActive = false;
+    } else {
+      // Marcar sesión como revocada
+      session.status = 'Revoked';
+      session.isActive = false;
+    }
+
     await session.save();
     return { success: true };
   } catch (err) {
@@ -119,5 +122,6 @@ export const logoutService = async (sessionId) => {
     return { error: 'Error en el servidor' };
   }
 };
+
 
 export default { signupService, loginService, logoutService };

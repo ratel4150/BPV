@@ -1,0 +1,254 @@
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T17:23:49.728Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:30:06.125Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:30:06.200Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T17:30:06.206Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T17:30:06.209Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T17:30:06.211Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T17:30:06.217Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:38:21.561Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:38:21.613Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T17:38:21.614Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T17:38:21.616Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T17:38:21.618Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T17:38:21.622Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T17:38:30.471Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T17:38:35.382Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T17:39:24.641Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:54:10.089Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:54:10.138Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T17:54:10.140Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T17:54:10.143Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T17:54:10.144Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T17:54:10.146Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"message":"Server selection timed out after 30000 ms","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"cluster0-shard-00-00.buo0t.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1731434076}},"signature":{"hash":{"0":226,"1":92,"10":199,"11":169,"12":89,"13":180,"14":139,"15":58,"16":114,"17":131,"18":164,"19":97,"2":144,"3":131,"4":1,"5":167,"6":58,"7":208,"8":181,"9":2},"keyId":7374412251131806000}},"address":"cluster0-shard-00-00.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["cluster0-shard-00-00.buo0t.mongodb.net:27017","cluster0-shard-00-01.buo0t.mongodb.net:27017","cluster0-shard-00-02.buo0t.mongodb.net:27017"],"lastUpdateTime":268806622,"lastWriteDate":{"$date":"2024-11-12T17:54:36Z"},"logicalSessionTimeoutMinutes":30,"maxWireVersion":21,"me":"cluster0-shard-00-00.buo0t.mongodb.net:27017","minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":"cluster0-shard-00-02.buo0t.mongodb.net:27017","roundTripTime":191,"setName":"atlas-bo9np5-shard-0","setVersion":9,"tags":{"availabilityZone":"euw3-az1","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"EU_WEST_3","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6720e126e43b33f2766ba8ca"}},"type":"RSSecondary"},"cluster0-shard-00-01.buo0t.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1731434075}},"signature":{"hash":{"$binary":{"base64":"Z3GHytCjqI4Tnn7OMQbUfW3itwg=","subType":"00"}},"keyId":7374412251131806000}},"address":"cluster0-shard-00-01.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["cluster0-shard-00-00.buo0t.mongodb.net:27017","cluster0-shard-00-01.buo0t.mongodb.net:27017","cluster0-shard-00-02.buo0t.mongodb.net:27017"],"lastUpdateTime":268805805,"lastWriteDate":{"$date":"2024-11-12T17:54:35Z"},"logicalSessionTimeoutMinutes":30,"maxWireVersion":21,"me":"cluster0-shard-00-01.buo0t.mongodb.net:27017","minRoundTripTime":273,"minWireVersion":0,"passives":[],"primary":"cluster0-shard-00-02.buo0t.mongodb.net:27017","roundTripTime":388,"setName":"atlas-bo9np5-shard-0","setVersion":9,"tags":{"availabilityZone":"euw3-az2","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"EU_WEST_3","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6720e6b8bbd38c92e19b3ed0"}},"type":"RSSecondary"},"cluster0-shard-00-02.buo0t.mongodb.net:27017":{"$clusterTime":null,"address":"cluster0-shard-00-02.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"lastUpdateTime":268784112,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-bo9np5-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"timestamp":"2024-11-12T17:54:43.765Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:53.841Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:55.337Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:56.366Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:56.569Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:56.761Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:56.962Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:57.114Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:57.287Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:57.481Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:57.670Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:57.870Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:58.135Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:58.285Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:58.475Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:58.668Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:58.867Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:59.077Z"}
+{"level":"warn","message":"Token inválido: secret or public key must be provided","timestamp":"2024-11-12T17:56:59.266Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:58:23.188Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:58:23.298Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T17:58:23.302Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T17:58:23.307Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T17:58:23.310Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T17:58:23.317Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T17:58:31.717Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T17:59:03.016Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:20:36.903Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:20:36.930Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:20:36.931Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:20:36.933Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:20:36.934Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:20:36.935Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:20:48.145Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:20:49.403Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:21:04.504Z"}
+{"level":"warn","message":"Usuario no encontrado","timestamp":"2024-11-12T19:21:14.782Z"}
+{"level":"warn","message":"Usuario no encontrado","timestamp":"2024-11-12T19:21:32.171Z"}
+{"level":"warn","message":"Usuario no encontrado","timestamp":"2024-11-12T19:21:33.465Z"}
+{"level":"warn","message":"Usuario no encontrado","timestamp":"2024-11-12T19:22:39.124Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:23:21.504Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:23:24.643Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:24:07.389Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:24:07.453Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:24:07.454Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:24:07.456Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:24:07.460Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:24:07.468Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:15.107Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:18.017Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:18.936Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:19.481Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:19.691Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:19.890Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.069Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.257Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.435Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.604Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.796Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:20.977Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:21.140Z"}
+{"level":"warn","message":"Token inválido: jwt malformed","timestamp":"2024-11-12T19:24:21.331Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:24:35.658Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:24:38.984Z"}
+{"level":"warn","message":"Token inválido: invalid token","timestamp":"2024-11-12T19:24:51.379Z"}
+{"level":"warn","message":"Token inválido: invalid token","timestamp":"2024-11-12T19:24:52.066Z"}
+{"level":"warn","message":"Token inválido: invalid token","timestamp":"2024-11-12T19:25:23.847Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:25:30.952Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:09.721Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:10.710Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:11.314Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:11.794Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:18.843Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:19.321Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:19.521Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:19.711Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:19.919Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:20.119Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:20.318Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:20.514Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:21.447Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:26:21.992Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:28:50.542Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:28:50.584Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:28:50.586Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:28:50.588Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:28:50.590Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:28:50.593Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:01.715Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:05.334Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:05.977Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:06.196Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:06.512Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:08.740Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:09.399Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:09.782Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:10.042Z"}
+{"level":"warn","message":"Token inválido: invalid signature","timestamp":"2024-11-12T19:29:10.279Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:31:40.183Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:31:40.211Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:31:40.212Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:31:40.213Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:31:40.214Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:31:40.215Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-12T19:32:27.972Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:32:31.458Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:32:31.481Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:32:31.482Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:32:31.484Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:32:31.485Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:32:31.486Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:32:44.674Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:32:44.701Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T19:32:44.703Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T19:32:44.705Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T19:32:44.707Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T19:32:44.709Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:32:48.022Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:40.166Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:41.750Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:43.173Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:43.365Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:43.557Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:33:43.742Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:33.268Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:33.877Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.078Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.261Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.426Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.617Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.796Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T19:35:34.982Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:35:50.449Z"}
+{"level":"info","message":"Cierre de sesión exitoso para sessionId: 6733ae169552dce8de73a251","timestamp":"2024-11-12T19:39:23.528Z"}
+{"level":"info","message":"Cierre de sesión exitoso para sessionId: 6733ae169552dce8de73a251","timestamp":"2024-11-12T19:39:53.263Z"}
+{"level":"info","message":"Cierre de sesión exitoso para sessionId: 6733ae169552dce8de73a251","timestamp":"2024-11-12T19:39:54.880Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:40:36.229Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:48:14.323Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:48:17.280Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:48:18.470Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:48:19.496Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T19:48:20.940Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:32:39.259Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:32:39.283Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T20:32:39.284Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T20:32:39.286Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T20:32:39.287Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T20:32:39.289Z"}
+{"level":"warn","message":"Sesión ya activa para el usuario: nuevoUsuario","timestamp":"2024-11-12T20:33:31.775Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T20:34:13.911Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T20:34:20.035Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:34:43.896Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:34:43.918Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T20:34:43.919Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T20:34:43.921Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T20:34:43.922Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T20:34:43.923Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:35:06.645Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:35:06.679Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T20:35:06.681Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T20:35:06.683Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T20:35:06.684Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T20:35:06.685Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T20:35:11.800Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T20:35:15.685Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:35:57.053Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:35:57.097Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T20:35:57.102Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T20:35:57.104Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T20:35:57.105Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T20:35:57.106Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T20:35:59.870Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T20:36:02.217Z"}
+{"level":"warn","message":"Token inválido o expirado: invalid signature","timestamp":"2024-11-12T20:36:03.016Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:07.508Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:08.369Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:09.083Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:09.685Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:09.975Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:10.203Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:10.418Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:10.617Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:10.817Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:11.024Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:11.222Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:12.436Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:13.156Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:14.024Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:15.174Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:21.331Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:21.810Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.006Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.198Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.399Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.556Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.742Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:22.933Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:23.122Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:23.309Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:23.521Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:23.747Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:24.026Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:24.290Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:24.565Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:24.818Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:25.051Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:25.307Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:25.532Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:25.764Z"}
+{"level":"warn","message":"Token inválido o expirado: jwt expired","timestamp":"2024-11-12T20:36:26.000Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T21:24:27.115Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:25:54.939Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:25:54.969Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T21:25:54.970Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T21:25:54.972Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T21:25:54.972Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T21:25:54.973Z"}
+{"level":"info","message":"Inicio de sesión exitoso para el usuario: nuevoUsuario","timestamp":"2024-11-12T21:26:20.005Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T21:26:51.503Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:40:54.375Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:40:54.407Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T21:40:54.408Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T21:40:54.411Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T21:40:54.413Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T21:40:54.417Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:41:15.463Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:41:15.509Z"}
+{"context":{"userId":"123"},"level":"warn","message":"Advertencia: El uso de memoria ha superado el 80%","timestamp":"2024-11-12T21:41:15.511Z"}
+{"context":{"userId":"123"},"level":"info","message":"Información general: El servidor ha iniciado correctamente","timestamp":"2024-11-12T21:41:15.513Z"}
+{"context":{"method":"GET","path":"/api/v1/users","userId":"123"},"level":"http","message":"HTTP Request: GET /api/v1/users","timestamp":"2024-11-12T21:41:15.515Z"}
+{"context":{"userId":"123"},"level":"debug","message":"Depuración: El usuario tiene el ID 123 y su estado es activo","timestamp":"2024-11-12T21:41:15.519Z"}
+{"level":"info","message":"Lista de departamentos obtenida exitosamente","timestamp":"2024-11-12T21:41:29.497Z"}

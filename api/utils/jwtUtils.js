@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 
-// Define la clave secreta en el código
-const JWT_SECRET = process.env.JWT_SECRET || 'yourSuperSecretKey';
+// Define la clave secreta directamente en el código
+const JWT_SECRET = 'yourSuperSecretKey';
 
 // Función para generar un token JWT
 export const generateJWT = (user) => {
@@ -9,7 +9,7 @@ export const generateJWT = (user) => {
     throw new Error("La clave secreta JWT no está definida");
   }
   return jwt.sign(
-    { id: user._id, username: user.username },
+    { id: user._id, username: user.username ,role: user.role},
     JWT_SECRET,
     { expiresIn: '1h' }
   );

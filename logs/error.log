@@ -511,3 +511,199 @@
 {"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:54:16.418Z"}
 {"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T17:54:49.158Z"}
 {"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T17:54:49.207Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'headers')","timestamp":"2024-11-11T17:57:36.846Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:01:14.104Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:01:14.241Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T18:01:58.324Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:02:36.491Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:02:36.515Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T18:03:16.300Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: store: Path `store` is required., email: Path `email` is required.","timestamp":"2024-11-11T18:03:54.324Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:04:47.417Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:04:47.465Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:05:48.510Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:05:50.024Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:05:51.734Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:07:04.196Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:07:04.223Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:07:08.027Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:07:53.223Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:07:53.272Z"}
+{"level":"error","message":"Error en el servicio de login: Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2024-11-11T18:08:08.204Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-11T18:08:16.202Z"}
+{"level":"error","message":"Error en el servicio de login: Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2024-11-11T18:08:21.640Z"}
+{"level":"error","message":"Error en el servicio de login: Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2024-11-11T18:08:33.328Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:08:46.811Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:08:46.844Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:08:52.589Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:10:02.333Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:10:02.356Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:10:09.316Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:10:18.441Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:10:48.342Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:10:48.371Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:11:27.276Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:11:27.338Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:11:31.496Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:15:59.299Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:16:27.431Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:16:27.482Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:32.349Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:38.946Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:44.730Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:45.663Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:46.126Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:16:46.875Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:17:43.012Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:17:43.058Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:17:49.458Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:17:49.482Z"}
+{"level":"error","message":"Error en el servicio de login: Cannot read properties of undefined (reading 'ip')","timestamp":"2024-11-11T18:18:10.349Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:19:26.513Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:19:26.537Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:24:01.059Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:24:01.116Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:24:40.174Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:24:40.199Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:24:46.269Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:24:46.296Z"}
+{"level":"error","message":"Error en el servicio de login: Session validation failed: user: Path `user` is required., email: Path `email` is required., store: Path `store` is required.","timestamp":"2024-11-11T18:24:51.775Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T18:26:51.005Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T18:26:51.027Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T19:16:08.817Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T19:16:08.847Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T19:17:56.200Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T19:17:56.225Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T20:40:47.375Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T20:41:03.117Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T20:41:17.705Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T20:41:17.728Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T21:13:06.712Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T21:13:06.741Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-11T21:27:46.374Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-11T21:27:46.424Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:30:06.125Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:30:06.200Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:38:21.561Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:38:21.613Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:54:10.089Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:54:10.138Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"message":"Server selection timed out after 30000 ms","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"cluster0-shard-00-00.buo0t.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1731434076}},"signature":{"hash":{"0":226,"1":92,"10":199,"11":169,"12":89,"13":180,"14":139,"15":58,"16":114,"17":131,"18":164,"19":97,"2":144,"3":131,"4":1,"5":167,"6":58,"7":208,"8":181,"9":2},"keyId":7374412251131806000}},"address":"cluster0-shard-00-00.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["cluster0-shard-00-00.buo0t.mongodb.net:27017","cluster0-shard-00-01.buo0t.mongodb.net:27017","cluster0-shard-00-02.buo0t.mongodb.net:27017"],"lastUpdateTime":268806622,"lastWriteDate":{"$date":"2024-11-12T17:54:36Z"},"logicalSessionTimeoutMinutes":30,"maxWireVersion":21,"me":"cluster0-shard-00-00.buo0t.mongodb.net:27017","minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":"cluster0-shard-00-02.buo0t.mongodb.net:27017","roundTripTime":191,"setName":"atlas-bo9np5-shard-0","setVersion":9,"tags":{"availabilityZone":"euw3-az1","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"EU_WEST_3","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6720e126e43b33f2766ba8ca"}},"type":"RSSecondary"},"cluster0-shard-00-01.buo0t.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1731434075}},"signature":{"hash":{"$binary":{"base64":"Z3GHytCjqI4Tnn7OMQbUfW3itwg=","subType":"00"}},"keyId":7374412251131806000}},"address":"cluster0-shard-00-01.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["cluster0-shard-00-00.buo0t.mongodb.net:27017","cluster0-shard-00-01.buo0t.mongodb.net:27017","cluster0-shard-00-02.buo0t.mongodb.net:27017"],"lastUpdateTime":268805805,"lastWriteDate":{"$date":"2024-11-12T17:54:35Z"},"logicalSessionTimeoutMinutes":30,"maxWireVersion":21,"me":"cluster0-shard-00-01.buo0t.mongodb.net:27017","minRoundTripTime":273,"minWireVersion":0,"passives":[],"primary":"cluster0-shard-00-02.buo0t.mongodb.net:27017","roundTripTime":388,"setName":"atlas-bo9np5-shard-0","setVersion":9,"tags":{"availabilityZone":"euw3-az2","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"EU_WEST_3","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6720e6b8bbd38c92e19b3ed0"}},"type":"RSSecondary"},"cluster0-shard-00-02.buo0t.mongodb.net:27017":{"$clusterTime":null,"address":"cluster0-shard-00-02.buo0t.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"lastUpdateTime":268784112,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-bo9np5-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"timestamp":"2024-11-12T17:54:43.765Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T17:58:23.188Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T17:58:23.298Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:20:36.903Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:20:36.930Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:24:07.389Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:24:07.453Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:28:50.542Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:28:50.584Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:31:40.183Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:31:40.211Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-12T19:32:27.972Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:32:31.458Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:32:31.481Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T19:32:44.674Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T19:32:44.701Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:32:39.259Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:32:39.283Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:34:43.896Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:34:43.918Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:35:06.645Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:35:06.679Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T20:35:57.053Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T20:35:57.097Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:25:54.939Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:25:54.969Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:40:54.375Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:40:54.407Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-12T21:41:15.463Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-12T21:41:15.509Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T15:45:32.468Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T15:45:32.546Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T15:49:48.797Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T15:49:48.872Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":0},"timestamp":"2024-11-13T15:50:13.530Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T15:50:22.913Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T15:50:22.954Z"}
+{"level":"error","message":"Promesa no manejada: ","promise":{},"reason":{"connectionGeneration":1},"timestamp":"2024-11-13T15:51:08.483Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T15:52:29.716Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T15:52:29.771Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T16:11:46.334Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T16:11:46.405Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T16:22:28.893Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T16:22:28.949Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T17:29:39.751Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T17:29:39.774Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T17:39:57.499Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T17:39:57.526Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:02:08.259Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:02:08.407Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:03:50.685Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:03:50.708Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:10:18.135Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:10:18.181Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:14:55.394Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:14:55.514Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:18:49.131Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:18:49.158Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:19:03.427Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:19:03.465Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:23:51.082Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:23:51.108Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:25:12.531Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:25:12.559Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:25:40.069Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:25:40.099Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:28:33.635Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:28:33.677Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:29:37.934Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:29:37.969Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:30:28.097Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:30:28.124Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:30:57.126Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:30:57.149Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:31:56.390Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:31:56.413Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T19:33:02.978Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T19:33:03.000Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:41.070Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:43.945Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:44.774Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:49.750Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:51.082Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:43:53.621Z"}
+{"level":"error","message":"Error al crear departamento: ","timestamp":"2024-11-13T19:44:09.185Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-13T20:01:28.305Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-13T20:01:28.341Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T04:09:47.137Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T04:09:47.190Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T04:38:27.917Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T04:38:27.970Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T04:42:33.984Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T04:42:34.060Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T04:49:41.301Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T04:49:41.343Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:22:33.331Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:22:33.487Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:30:05.803Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:30:05.832Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:31:24.821Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:31:24.846Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:33:58.812Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:33:58.836Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:35:39.591Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:35:39.619Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:36:03.817Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:36:03.867Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:37:11.803Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:37:11.829Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:38:15.713Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:38:15.737Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:42:31.096Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:42:31.128Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:50:45.553Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:50:45.586Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:51:23.799Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:51:23.822Z"}
+{"context":{"action":"dbConnection","userId":"123"},"level":"fatal","message":"Error crítico: No se pudo conectar a la base de datos","timestamp":"2024-11-14T21:51:30.085Z"}
+{"context":{"userId":"123"},"level":"error","message":"Error: El sistema ha fallado","timestamp":"2024-11-14T21:51:30.122Z"}

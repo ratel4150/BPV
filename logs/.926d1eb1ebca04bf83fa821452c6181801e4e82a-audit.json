@@ -6,21 +6,6 @@
     "auditLog": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\.926d1eb1ebca04bf83fa821452c6181801e4e82a-audit.json",
     "files": [
         {
-            "date": 1730240826919,
-            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-10-29-results.log",
-            "hash": "446f49553216992e371ee694925073b6ba7c0c0b5be659758f504bed25445d3d"
-        },
-        {
-            "date": 1730309530955,
-            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-10-30-results.log",
-            "hash": "95c96fbb172e4d08e021e313f9d0c59ad3187aa507f58b781b1407c1eddd7150"
-        },
-        {
-            "date": 1730392554488,
-            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-10-31-results.log",
-            "hash": "3e838581b71acc0abce297c648bdd19454d850e755bf04f1c9a103fc028c974d"
-        },
-        {
             "date": 1730662764994,
             "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-11-03-results.log",
             "hash": "7d2180e41d855cb07b2039fed0738227c140de05dec4e01afc4860819a28ab9b"
@@ -59,6 +44,21 @@
             "date": 1731333022212,
             "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-11-11-results.log",
             "hash": "9f5f410569d6907875c737849756c01b605f751766bea85e22db1854e9fad322"
+        },
+        {
+            "date": 1731432229747,
+            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-11-12-results.log",
+            "hash": "1b0cca4bbbd1e47f5e1077ad6b68226ba1cd1da08a84c40dc4f458cc9442cd2e"
+        },
+        {
+            "date": 1731512732423,
+            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-11-13-results.log",
+            "hash": "9d248757b5b943fd0d9d50d71eda010c1aea82649bc2ba4508d8fdb11211905c"
+        },
+        {
+            "date": 1731619353300,
+            "name": "C:\\Users\\OCC-C841\\Desktop\\backend_punto_venta\\logs\\2024-11-14-results.log",
+            "hash": "a38f078267da8320aac2e3d43b02e831456dde99bf91c5a637d49bf2e462db40"
         }
     ],
     "hashType": "sha256"

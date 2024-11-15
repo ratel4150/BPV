@@ -2,7 +2,9 @@
 import authServices from '../service/authService.js';
 import logger from '../logger.js';
 import Session from '../models/Session.js';
-import { generateJWT } from '../utils/jwtUtils.js';
+
+import useragent from 'useragent';
+import geoip from 'geoip-lite';
 
 // @swagger
 // /auth/signup:
@@ -32,38 +34,72 @@ export const signup = async (req, res) => {
 
 export const login = async (req, res) => {
   try {
-    const { username, password, email, storeName, roleName } = req.body;
+    const { username, password } = req.body;
 
-    // Validar las credenciales del usuario
-    const user = await authServices.loginService(username, password, email, storeName, roleName);
+    // Llamada al servicio de login para autenticar al usuario
+    const { token, user, error } = await authServices.loginService(username, password);
+
+    if (error) {
+      logger.warn(error);
+      return res.status(400).json({ message: error });
+    }
+
     if (!user) {
       logger.warn(`Credenciales incorrectas para el usuario: ${username}`);
       return res.status(401).json({ message: 'Credenciales incorrectas' });
     }
 
-    // Verifica que el usuario tenga email y store asociados
-    if (!user.email || !user.store) {
-      logger.warn(`El usuario ${username} no tiene email o tienda configurada.`);
-      return res.status(400).json({ message: 'Usuario incompleto, falta email o tienda' });
+    // Verificar si el usuario ya tiene una sesión activa
+    const existingSession = await Session.findOne({
+      user: user._id,
+      status: 'Active'
+    });
+
+    if (existingSession) {
+      logger.warn(`Sesión ya activa para el usuario: ${username}`);
+      return res.status(409).json({ message: 'Ya existe una sesión activa para este usuario' });
     }
 
-    // Generar el token JWT
-    const token = generateJWT(user);
+    // Información del dispositivo y navegador
+    const agent = useragent.parse(req.headers['user-agent']);
+    const deviceDetails = {
+      deviceType: agent.device.toString() === 'Other' ? 'Desktop' : 'Mobile',
+      model: agent.device.toString(),
+      os: agent.os.toString(),
+      osVersion: agent.os.toVersion(),
+      browser: agent.family,
+      browserVersion: agent.toVersion()
+    };
 
-    // Crear una nueva sesión con email y store
+    // Información de ubicación basada en IP
+    const geo = geoip.lookup(req.ip) || {};
+    const location = {
+      country: geo.country || 'Unknown',
+      city: geo.city || 'Unknown',
+      latitude: geo.ll ? geo.ll[0] : null,
+      longitude: geo.ll ? geo.ll[1] : null,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone
+    };
+
+    // Crear una nueva sesión con todos los detalles
     const session = new Session({
       user: user._id,
-      email: user.email,   // Asegúrate de que 'user.email' esté definido
-      store: user.store,   // Asegúrate de que 'user.store' esté definido
+      email: user.email,
+      store: user.store,
       token,
       ipAddress: req.ip,
-      device: req.headers['user-agent'],
-      expiresAt: new Date(Date.now() + 3600000), // Expira en 1 hora
+      device: deviceDetails,
+      location,
+      metadata: {
+        loginMethod: 'Password', // Ejemplo, cambiar si hay múltiples métodos
+        loginAttempts: 1, // Registro inicial de intentos de inicio de sesión
+      },
+      expiresAt: new Date(Date.now() + 3600000) // Expira en 1 hora
     });
 
     await session.save();
-    logger.info(`Inicio de sesión exitoso para el usuario: ${username}`);
 
+    logger.info(`Inicio de sesión exitoso para el usuario: ${username}`);
     return res.status(200).json({ message: 'Inicio de sesión exitoso', token });
   } catch (err) {
     logger.error(`Error en el servicio de login: ${err.message}`);
