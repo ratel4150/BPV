@@ -7,8 +7,19 @@ import routes from './api/routes/index.js'; // Importa el archivo de rutas princ
 /* import rateLimit from 'express-rate-limit'; */
 import morgan from 'morgan';
 import helmet from 'helmet';
+import cors from 'cors';
 const app = express();
 const port = process.env.PORT || 10010;
+
+
+app.use(
+  cors({
+    origin: 'http://localhost:4000', // O el origen de tu aplicación cliente
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Métodos permitidos
+    allowedHeaders: ['Content-Type', 'Authorization'], // Cabeceras permitidas
+    credentials: true, // Permite el uso de cookies/sesiones
+  })
+);
 
 // Middleware de seguridad
  app.use(helmet(helmet({
@@ -60,6 +71,18 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Rutas
 // Rutas principales
+// Ruta principal con el arte ASCII
+app.get('/', (req, res) => {
+  const asciiArt = `
+    ______   _______  __   __  _______  __   __  _______  _______ 
+   /    /| /  ___  |/ /  / / /  ___  |/ /  / / /  ___  |/  ___  |
+  /_____/ | /|   | |  /  / / | /|   |   /  / /  / /|   | /|   | |
+ |  .-.   | |     | | /  /  /  | |     |  /  /  | |     | |   | |
+ | |   |   | |_____| |/  /  /  | |_____| /  /   | |_____| |___| |
+ |_|   |_||_______||____/   |_______||_/   /    |_______|_______|                                                                        
+   `;
+  res.send(`<pre>${asciiArt}</pre>`);
+});
 app.use('/', routes); // Usa todas las rutas desde `api/routes/index.js`
 app.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
