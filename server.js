@@ -4,7 +4,7 @@ import swaggerUi from 'swagger-ui-express';
 import { swaggerOptions } from './swaggerOptions.js';
 import morganMiddleware from './api/middleware/MorganMiddleware.js';
 import routes from './api/routes/index.js'; // Importa el archivo de rutas principal
-import rateLimit from 'express-rate-limit';
+/* import rateLimit from 'express-rate-limit'; */
 import morgan from 'morgan';
 import helmet from 'helmet';
 const app = express();
@@ -41,12 +41,12 @@ const port = process.env.PORT || 10010;
 })));  
 app.set('trust proxy', true);
 // Limitar tasas de solicitudes
- const limiter = rateLimit({
+/*  const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutos
   max: 100, // Limitar cada IP a 100 solicitudes por ventana
   message: 'Demasiadas solicitudes, inténtalo de nuevo más tarde.',
 });
-app.use(limiter); 
+app.use(limiter);  */
 
 // Middleware de Morgan para log de solicitudes
  app.use(morgan('combined')); 
